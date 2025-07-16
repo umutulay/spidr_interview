@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text */
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #1e1e1e; /* Darker form background */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Adjusted shadow for dark theme */
+  position: relative; /* Ensure form is layered correctly */
+  z-index: 1; /* Place form above the background effect */
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff; /* Light text for heading */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #555; /* Darker border */
+  border-radius: 4px;
+  margin-top: 5px;
+  background-color: #333; /* Dark input background */
+  color: #fff; /* Light input text */
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff; /* A bright color for the button */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0056b3; /* A darker shade for hover */
+}
+
+#spider-web-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    repeating-conic-gradient(from 0deg at var(--mouse-x) var(--mouse-y),
+      rgba(255, 255, 255, 0.1) 0deg 1deg,
+      transparent 1deg 30deg
+    ),
+    repeating-radial-gradient(circle at var(--mouse-x) var(--mouse-y),
+      rgba(255, 255, 255, 0.1) 0,
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px,
+      transparent 50px
+    );
+}
