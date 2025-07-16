@@ -26,6 +26,6 @@ Clone the repo and run it locally:
 
 ```bash
 git clone https://github.com/umutulay/spidr_interview.git
-cd spidr-airfryer-form
+cd spidr_interview
 npm install
 npm run dev
