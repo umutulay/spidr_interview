@@ -3,9 +3,9 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: dark; /* Set color scheme to dark */
+  color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #121212; /* Dark background */
+  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -19,7 +19,7 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #747bff; /* Adjusted hover color for dark theme */
+  color: #535bf2;
 }
 
 body {
@@ -28,7 +28,6 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #121212; /* Ensure body background is dark */
 }
 
 h1 {
@@ -43,13 +42,12 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1e1e1e; /* Darker button background */
+  background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-  color: #ffffff; /* Light button text */
 }
 button:hover {
-  border-color: #007bff; /* Bright border on hover */
+  border-color: #646cff;
 }
 button:focus,
 button:focus-visible {
