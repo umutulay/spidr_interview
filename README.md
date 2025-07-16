@@ -2,6 +2,8 @@
 
 A single-page interest form built with React and Tailwind CSS. This form is designed to collect details about Spidr Design’s revolutionary air fryer.
 
+![Website Image](images/website_img.png)
+
 > 🕸 Inspired by the design language of [Spidr Design](https://spidr.design/)
 
 ---
